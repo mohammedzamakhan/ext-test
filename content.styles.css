@@ -1,0 +1,250 @@
+/* @font-face {
+  font-family: 'Lexend';
+  src: url('chrome-extension://__MSG_@@extension_id__/src/assets/Lexend/Lexend-VariableFont_wght.ttf');
+} */
+
+.root {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 2147483647;
+  color: #152c5b;
+  font-size: 14px !important;
+  box-sizing: border-box;
+  background: #f8fbfe;
+  height: 100vh;
+  box-shadow: 3px 3px 8px 8px rgb(0 0 0 / 30%);
+}
+
+.recommendations {
+  background: #ffe5b0;
+  padding: 1rem;
+  border: 1px #ffbd39 solid;
+  border-radius: 0.5rem;
+}
+
+.problem {
+  background: #ffebeb;
+  padding: 1rem;
+  border: 1px #ff7777 solid;
+  border-radius: 0.5rem;
+}
+
+.good {
+  background: #e0ffe8;
+  padding: 1rem;
+  border: 1px #3ebb5a solid;
+  border-radius: 0.5rem;
+}
+
+.heading {
+  font-size: 32px;
+}
+
+.heading-1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.heading-2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.heading-3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.subtext-1 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.button-text {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.loginScreen {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
+  padding: 0 3rem;
+}
+
+.dots-container {
+  margin-top: 4rem;
+  justify-content: center;
+  display: flex;
+}
+
+.dots {
+  height: 12px;
+  width: 12px;
+  margin: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #445880;
+}
+.dots-active {
+  background-color: #508de8;
+}
+
+.break-line {
+  width: 100%;
+  border: 1px solid #e5ebf0;
+  margin: 2rem 0;
+}
+
+.introjs-tooltiptext {
+  background-color: #e1edff !important;
+  width: 400px;
+  border-radius: 1rem;
+  padding: 10px 4rem 20px 4rem !important;
+  color: #152c5b;
+}
+
+.introjs-tooltip {
+  border-radius: 1rem !important;
+}
+
+.introjs-arrow.top {
+  border-bottom-color: #e1edff !important;
+}
+.introjs-arrow.bottom {
+  border-top-color: #e1edff !important;
+}
+
+.leftAlignedIntro.introjs-tooltip {
+  left: -350px !important;
+}
+
+.leftAlignedIntro .introjs-arrow {
+  left: 380px !important;
+}
+
+.introjs-tooltip-header {
+  display: none;
+}
+
+.align-icon-center {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.spaceBetweenContent {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-24 {
+  width: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-text {
+  padding-right: 1rem;
+  position: relative;
+  top: 2px;
+}
+
+.primary-btn {
+  background: #508de8 !important;
+  border: #508de8 !important;
+}
+
+.primary-btn:hover {
+  background: #4280dc !important;
+  border: #276cd2 !important;
+  color: white !important;
+}
+
+.primary-btn:active {
+  background: #276cd2 !important;
+  border: #276cd2 !important;
+}
+
+.secondary-button {
+  background-color: #f8fbfe !important;
+  color: #508de8 !important;
+  border: 1px solid #508de8 !important;
+}
+
+.slick-dots.slick-dots-bottom {
+  bottom: -20px !important;
+}
+
+.orange-btn {
+  background: #ff9100 !important;
+  border: #ff9100 !important;
+}
+
+.orange-btn:hover {
+  background: #ffa32a !important;
+  border: #ffa32a !important;
+}
+.orange-btn:active {
+  background: #f38a00 !important;
+  border: #f38a00 !important;
+}
+
+/* ------------------------------Overrides-------------------------------- */
+
+.ant-collapse {
+  background-color: white !important;
+  border: none !important;
+}
+
+.ant-collapse-content {
+  background-color: inherit !important;
+}
+
+.ant-collapse > .ant-collapse-item {
+  border: none !important;
+}
+.ant-tooltip {
+  z-index: 2147483647 !important;
+}
+
+.ant-carousel .slick-dots li button {
+  background: #a8c6f4 !important;
+  opacity: 1 !important;
+}
+
+.ant-carousel {
+  color: #152c5b !important;
+}
+
+.ant-carousel .slick-dots li button:hover {
+  background: #152c5b !important;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  background: #152c5b !important;
+}
+
+.ant-carousel .slick-prev {
+  left: -32px !important;
+}
+
+.ant-carousel .slick-next {
+  right: -32px !important;
+}
+
+.ant-badge-dot {
+  height: 9px !important;
+  width: 9px !important;
+}
+
+.ant-btn {
+  display: inline-flex !important;
+  align-items: center;
+}
+
+.ant-btn:disabled {
+  background: '#8daedf' !important;
+}
